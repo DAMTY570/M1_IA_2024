@@ -1,22 +1,17 @@
-import numpy as np
+import random
 
-def devinette () :
-    np.random.seed(0)
-
-
-    x= np.random.randint(0,100)
-    print (x)
-
+def devinette():
+    nombre_aleatoire = random.randint(0, 100)
     while True:
-        y=int(input("entrer le nombre",))
-
-        if (y>x):
-            print("trop grand")
-        elif (x>y):
-            print('trop petit')
-        else:
-            print("execte")
-            break
-        return print("c'est fini")
-
-devinette(2)
+        try:
+            guess = int(input("Devinez le nombre entre 0 et 100 : "))
+            if guess < nombre_aleatoire:
+                print("Trop petit")
+            elif guess > nombre_aleatoire:
+                print("Trop grand")
+            else:
+                print("Exact")
+                break
+        except ValueError:
+            print("Veuillez entrer un nombre valide.")
+devinette()
