@@ -1,0 +1,234 @@
+    1  git config --global user.name"Juvenal"
+    2  git config --global user.email nevil.oubamba@gmail.com
+    3  git config --list
+    4  git config --global color.diff auto
+    5  git config --global color.status auto
+    6  git config --global color.branch auto
+    7  git config --global core.editor notepad++
+    8  git config --gobal merge.tool vimdiff
+    9  cd C:/Users/Juvenal OUBAMBA5/Documents/Maste1_Data/GitHub/PremierProjet
+   10  git init
+   11  pwd
+   12  cd Documents/PremierProjet
+   13  cd Documents/PremierProjet
+   14  pwd
+   15  git add index.html styles.css
+   16  git commit -m "Ajout des fichiers html et css de base"
+   17  git branch
+   18  git branch cagnotte
+   19  git branch
+   20  git checkout cagnotte
+   21  git branch
+   22  git commit -m "Réalisation de la partie cagnotte côté front end"
+   23  git branch
+   24  git push -u origin cagnotte
+   25  git branche
+   26  git branch
+   27  git checkout main
+   28  git merge cagnotte
+   29  git clone https://github.com/OUBAMBA/TP1_Github.git
+   30  git pull origin main
+   31  git mkdir "Test"
+   32  mkdir
+   33  mkdir --help
+   34  mkdir "Test"
+   35  git branch
+   36  git init
+   37  git status
+   38  git add "Test"
+   39  git status
+   40  pwd
+   41  pwd --help
+   42  pwd -p
+   43  pwd -P
+   44  cd Test
+   45  git status
+   46  pwd
+   47  git init
+   48  git add PremierFichier.txt
+   49  pwd
+   50  git branch
+   51  git branch
+   52  git commit -m "version une"
+   53  git branch
+   54  git checkout alter-name "main"
+   55  git checkout alter-name --help
+   56  git branch --help
+   57  git branch -m new-name --help
+   58  git branch -m new-name "master" "main"
+   59  git branch
+   60  git branch jsp
+   61  git branch
+   62  git checkout jsp
+   63  git branch -m master main
+   64  git branch
+   65  git branch -m jsp brancheTest
+   66  git branch
+   67  git branch -d brancheTest
+   68  git branch
+   69  git checkout main
+   70  git branch
+   71  git branch -d brancheTest
+   72  git branch
+   73  git status
+   74  git add PremierFichier.txt
+   75  git status
+   76  git commit
+   77  git status
+   78  git commit -m
+   79  git commit -m "aeae"
+   80  git status
+   81  git add PremierFichier.txt
+   82  git commit -m "aeae"
+   83  git commit -m PremierFichier
+   84  git commit -m "PremierFichier"
+   85  git commit "PremierFichier"
+   86  git commit
+   87  pwd
+   88  git status
+   89  git add PremierFichier
+   90  git add PremierFichier.txt
+   91  git commit -m "Premierchangement"
+   92  git branch
+   93  git commit -m "Premierchangement"
+   94  git status
+   95  git status
+   96  git stash
+   97  git add fichier.txt
+   98  git commit -m "changement 1"
+   99  git status
+  100  git stash
+  101  mkdir "Projet_git"
+  102  cd "projet_git"
+  103  git init
+  104  touche firsfile.txt
+  105  git add firstfile.txt
+  106  git add firstfile.txt
+  107  git add firstfile.txt
+  108  git commit -m "Premier commit : ajout de firstfile.txt"
+  109  git branch OUBAMBA
+  110  git add
+  111  git commit -m "Aucun message de commit"
+  112  git remot add origin https://github.com/OUBAMBA/Projet-git.git
+  113  git push origin master
+  114  mkdir Projet-git
+  115  cd Projet-git
+  116  git int
+  117  git init
+  118  git remot add origin https://github.com/OUBAMBA/Projet-git.git
+  119  git pull
+  120  git push origin
+  121  git init
+  122  git add
+  123  git add firstfile.txt
+  124  git add firstfile.txt
+  125  git commit -m "Premier commit : ajout de firstfile.txt"
+  126  git branch OUBAMBA
+  127  git checkout OUBAMBA
+  128  git remote add origin https://github.com/OUBAMBA/Projet-git.git
+  129  git push -u origin master
+  130  git add readme.txt
+  131  git commit -m "Premier commit : ajout de readme.txt"
+  132  git add fichier.py
+  133  git commit -m "Premier commit : ajout de fichier.py"
+  134  git tag V1.0 <commit_SHA>
+  135  git tag V2.0 <commit_SHA>
+  136  git push --tags
+  137  git remot add collègue https://github.com/OUBAMBA/Projet-git.git
+  138  pwd
+  139  git clone https://github.com/OUBAMBA/Projet-git.git
+  140  ls
+  141  mkdir test
+  142  mkdir testgit
+  143  cd testgit/
+  144  git clone https://github.com/OUBAMBA/Projet-git.git
+  145  git clone git@github.com:OUBAMBA/Projet-git.git
+  146  ls
+  147  ls
+  148  git clone
+  149  git clone git@github.com:OUBAMBA/Projet-git.git
+  150  ehttps://github.com/OUBAMBA/Projet-git.git
+  151  git clone http://github.com/OUBAMBA/Projet-git.git
+  152  git clone ehttps://github.com/OUBAMBA/Projet-git.git
+  153  git clone https://github.com/OUBAMBA/Projet-git.git
+  154  ls
+  155  cd
+  156  mkdir Projet-git
+  157  cd
+  158  cd projet-git
+  159  git init
+  160  git remot add origin https://github.com/OUBAMBA/Projet-git.git
+  161  mkdir tp_final
+  162  cd tp_final/
+  163  ls
+  164  ls -la
+  165  git remote add mouad https://github.com/mouadauto/M1_IA_2024.git
+  166  ls
+  167  git fetch mouad
+  168  ls
+  169  git branch --all
+  170  git pull mouad main
+  171  ls
+  172  git config --global
+  173  git config --global user.email
+  174  git pull mouad main
+  175  git checkout -b juvenal
+  176  git pull mouad main
+  177  git pull mouad
+  178  git pull mouad
+  179  git pull mouad main
+  180  git pull mouad main --allow-unrelated-histories
+  181  git config --global core.editor "vim"
+  182  git checkout main
+  183  git pull mouad main --allow-unrelated-histories
+  184  ls
+  185  rm -r .git
+  186  git pull mouad main
+  187  git pull mouad main --allow-unrelated-histories
+  188  git branch rm FETCH_HEAD
+  189  git pull mouad main --allow-unrelated-histories
+  190  git branch rm FETCH_HEAD AUTO_MERGE mouad/main
+  191  git branch rm  mouad/main
+  192  git branch mouad/main
+  193  ls
+  194  git pull mouad main --allow-unrelated-histories
+  195  cd
+  196  pwd
+  197  cd
+  198  mkdir tp_final
+  199  cd tp_final/
+  200  git init
+  201  git remote add mouad https://github.com/mouadauto/M1_IA_2024.git
+  202  git pull mouad main
+  203  ls
+  204  git branch Juvenal
+  205  git checkout Juvenal
+  206  ls
+  207  vim README.md
+  208  touch analyse.py
+  209  vim analyse.py
+  210  git add analyse.py
+  211  git commit -m "analyse de données"
+  212  git push mouad Juvenal
+  213  git pull mouad
+  214  git branch --all
+  215  git checkout remotes/mouad/youri
+  216  ls
+  217  git checkout  remotes/mouad/yahya
+  218  ls
+  219  ls
+  220  git checkout remotes/mouad/yassin2
+  221  ls
+  222  git pull moaud
+  223  ls
+  224  git checkout exercice_python
+  225  git checkout remotes/mouad/main
+  226  ls
+  227  git branch --all
+  228  git pull mouad
+  229  git branch --all
+  230  git checkout Juvenal
+  231  git merge remotes/mouad/exercice_python
+  232  ls
+  233  historique
+  234  history
